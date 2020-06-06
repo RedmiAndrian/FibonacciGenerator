@@ -1,11 +1,11 @@
 print("Hello!")
 print("This is a Python fibonacci generator!")
-inp = int(input("Enter an integer that is greater than 5:  "))
+inp = int(input("Enter an integer that is greater than 3:  "))
 list = [0, 1, 1]
 a = 1
 b = 2
 first_num = 0
-if inp < 5:
+if inp < 4:
   print("Dude, that was easy to do!! >:( ")
 else:
   for i in range(0 , (inp - 3)):
@@ -14,4 +14,4 @@ else:
     a = a + 1
     b = b + 1
 
-print(list)
+  print(list)
